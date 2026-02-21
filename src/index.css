@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+:root {
+  --tg-theme-bg-color: #ffffff;
+  --tg-theme-text-color: #000000;
+  --tg-theme-hint-color: #999999;
+  --tg-theme-link-color: #2481cc;
+  --tg-theme-button-color: #3390ec;
+  --tg-theme-button-text-color: #ffffff;
+  --tg-theme-secondary-bg-color: #f4f4f5;
+}
+
+body {
+  background-color: var(--tg-theme-bg-color);
+  color: var(--tg-theme-text-color);
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+/* Стили для Leaflet, чтобы карта была на весь экран */
+.leaflet-container {
+  background: #f0f0f0;
+}

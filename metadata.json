@@ -1,0 +1,5 @@
+{
+  "name": "Cyprus Map Quiz TMA",
+  "description": "Интерактивный квиз по городам и деревням Кипра для Telegram Mini App",
+  "requestFramePermissions": ["geolocation"]
+}
